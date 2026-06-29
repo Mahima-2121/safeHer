@@ -6,6 +6,7 @@
 
 # Maven
 target/
+!.mvn/wrapper/maven-wrapper.jar
 
 # IntelliJ
 .idea/
@@ -20,12 +21,6 @@ target/
 # Java
 *.class
 
-# OS Files
+# OS files
 .DS_Store
 Thumbs.db
-
-# Environment variables
-.env
-
-# Application secrets
-application-local.properties
